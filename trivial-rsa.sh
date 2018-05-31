@@ -89,8 +89,9 @@ dev-type tun
 
 verb 3
 
+; you may need to add this user
 user openvpn
-group nogroup
+group openvpn
 
 ping 5
 ping-restart 30
@@ -154,8 +155,9 @@ dev-type tun
 
 verb 3
 
+; you may need to add this user
 user openvpn
-group nogroup
+group openvpn
 
 ping 5
 ping-restart 30
