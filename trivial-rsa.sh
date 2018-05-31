@@ -136,7 +136,7 @@ remote-cert-tls client
 tls-crypt tls-$CA_ID/ta.key
 
 # ecdh-curve requires OpenVPN 2.4 or higher
-echd-curve secp521r1
+ecdh-curve secp521r1
 
 tls-cipher TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384:TLS-DHE-RSA-WITH-AES-256-GCM-SHA384:TLS-DHE-RSA-WITH-AES-256-CBC-SHA256:TLS-DHE-RSA-WITH-AES-256-CBC-SHA
 ####################
@@ -201,7 +201,7 @@ remote-cert-tls server
 tls-crypt tls-$CA_ID/ta.key
 
 ; ecdh-curve requires OpenVPN 2.4 or higher
-echd-curve secp521r1
+ecdh-curve secp521r1
 
 tls-cipher TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384:TLS-DHE-RSA-WITH-AES-256-GCM-SHA384:TLS-DHE-RSA-WITH-AES-256-CBC-SHA256:TLS-DHE-RSA-WITH-AES-256-CBC-SHA
 ####################
